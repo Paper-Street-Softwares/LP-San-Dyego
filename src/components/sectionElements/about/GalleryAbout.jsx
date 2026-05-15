@@ -31,6 +31,13 @@ function GalleryAbout() {
         : content.texts.about.galeria.slide3.img.img3,
       originalAlt: content.texts.about.galeria.slide3.alt,
     },
+    {
+      original: isMobile
+        ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
+        : content.texts.about.galeria.slide4.img.img4,
+      originalAlt: content.texts.about.galeria.slide4.alt,
+    },
+
     // {
     //   original: isMobile
     //     ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
@@ -65,13 +72,13 @@ function GalleryAbout() {
 
               @media (min-width: 640px) and (max-width: 1023px) {
                 .custom-gallery .image-gallery-slide img {
-                  height: 900px;
+                  height: 600px;
                 }
               }
 
               @media (min-width: 1024px) {
                 .custom-gallery .image-gallery-slide img {
-                  min-height: 700px;
+                  min-height: 500px;
                   
                 }
               }

@@ -53,7 +53,8 @@ export default function FooterSocial({
               <LogoFooter />
               <PhoneFooter colorMode={colorMode} />
               <EmailFooter />
-              {addres && <AdressFooter />}
+              {addres && <AdressFooter showSecond={true} />}
+
               {expediente && <ExpedienteFooter />}
               {obs && <ObsFooter />}
             </div>
