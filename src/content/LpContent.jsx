@@ -200,9 +200,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Trabalhista",
+        title: "Direito de Trânsito",
         subtitle:
-          "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
+          "Atuação jurídica em multas, CNH, recursos e demais questões de trânsito.",
         description: (
           <div>
             A_Definir
